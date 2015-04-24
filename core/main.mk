@@ -523,7 +523,8 @@ subdirs := \
 	system/media/audio_route \
 	system/su \
 	system/security/keystore \
-	system/security/softkeymaster
+	system/security/softkeymaster \
+	external/f2fs-tools
 
 ifeq ($(TARGET_DEVICE),generic_x86)
 subdirs += \
@@ -547,7 +548,10 @@ subdirs += \
 	vendor/nxp \
 	vendor/qcom \
 	vendor/samsung \
-	vendor/widevine
+	vendor/widevine \
+	device/motorola \
+	device/qcom \
+	vendor/motorola
 
 # Specific projects for Ubuntu Touch
 subdirs += \
